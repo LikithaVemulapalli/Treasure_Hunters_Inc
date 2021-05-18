@@ -10,7 +10,7 @@ The implementation of Q-Learning algorithm is located in the Notebooks folder.
 
 ## Reinforcement Learning:
 
-Reinforcement algorithms can be used to train an agent to solve environments without any prior information. In this project, the agent needs to navigate from start till final destiantion and collect most of the treasures while avoiding obstacles and opponents. RL is used to make the optimal decisions. The reward system is used to evaluate different scenarios, an environment where the tasks need to be performed and different states to make transition or take an action. The agent will receive more reward for an ostacle free state and for avoiding opponents. The training should be done multiple times until the agent learns how to navigate through the maze, to know the state-actions, rewards and penalties. 
+Reinforcement algorithms can be used to train an agent to solve environments without any prior information. In this project, the agent needs to navigate from start till final destiantion and collect most of the treasures while avoiding obstacles and opponents. RL is used to make the optimal decisions. The reward system is used to evaluate different scenarios, an environment where the tasks need to be performed and different states to make transition or take an action. The agent will receive more reward for an obstacle free state and for avoiding opponents. The training should be done multiple times until the agent learns how to navigate through the maze, to know the state-actions, rewards and penalties. 
 
 The optimal path traversal is solved using the principles of QLearning to update the Q matrix to maximize the rewards. This algorithm uses exploration and exploitation to get the optimal path. Once, training is done the optimal path can be obtained by taking optimal moves at each state based on the Q matrix. The Q learning strategy includes immediate reward based on the action and quality of the action based on the moves for the agent learning experience. We can observe from the last two plots, the optimal path collecting all the treasures till agent reaches the destination.
 
@@ -29,11 +29,10 @@ https://www.freecodecamp.org/news/an-introduction-to-q-learning-reinforcement-le
 
 ## Steps to execute:
 1. Download the files from the github repository.
-2. Get the ecoli_data.csv and cancer_data.csv by unzipping the .zip file.
-3. Place the file in data folder and place the data folder in notebooks folder. The notebooks folder should also have ipynb file as well.
-4. Navigate to terminal and type "jupyter notebook"
-5. Navigate to the folder where the notebooks are placed.
-6. From the menu icon cell, select the notebook and click on Run all which will run the whole notebook from the first cell.
+2. The notebooks folder should have ipynb file.
+3. Navigate to terminal and type "jupyter notebook"
+4. Navigate to the folder where the notebooks are placed.
+5. From the menu icon cell, select the notebook and click on Run all which will run the whole notebook from the first cell.
 
 ## Steps to follow:
 1. We do the treasure hunting and monster fighting for you
